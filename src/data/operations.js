@@ -32,7 +32,7 @@ export const operationsMap = [
     name: 'pathPayment',
     label: 'Path Payment',
     operationPane: require('../components/OperationPanes/PathPayment'),
-    helpNote: 'Sends an amount in a specific asset to a destination account through a path of offers. This allows the asset sent (e.g., 450 XLM) to be different from the asset received (e.g, 6 BTC).',
+    helpNote: 'Sends an amount in a specific asset to a destination account through a path of offers. This allows the asset sent (e.g., 450 XLX) to be different from the asset received (e.g, 6 BTC).',
     docsUrl: 'https://www.rover.network/developers/guides/concepts/list-of-operations.html#path-payment',
   },
   {
@@ -74,7 +74,7 @@ export const operationsMap = [
     name: 'accountMerge',
     label: 'Account Merge',
     operationPane: require('../components/OperationPanes/AccountMerge'),
-    helpNote: 'Transfers the native balance (the amount of XLM an account holds) to another account and removes the source account from the ledger.',
+    helpNote: 'Transfers the native balance (the amount of XLX an account holds) to another account and removes the source account from the ledger.',
     docsUrl: 'https://www.rover.network/developers/guides/concepts/list-of-operations.html#account-merge',
   },
   {
