@@ -7,7 +7,7 @@ const NETWORK = {
       networkObj: new Network(Networks.TESTNET),
     },
     public: {
-      url: 'http://orbit-testnet.rover.network',
+      url: 'http://orbit.rover.network',
       networkObj: new Network(Networks.PUBLIC),
     }
   },
