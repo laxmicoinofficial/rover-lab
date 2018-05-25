@@ -3,11 +3,11 @@ import {Network, Networks} from 'rover-network-sdk';
 const NETWORK = {
   available: {
     test: {
-      url: 'http://orbit-testnet.rover.network',
+      url: 'https://orbit-testnet.rover.network',
       networkObj: new Network(Networks.TESTNET),
     },
     public: {
-      url: 'http://orbit.rover.network',
+      url: 'https://orbit.rover.network',
       networkObj: new Network(Networks.PUBLIC),
     }
   },

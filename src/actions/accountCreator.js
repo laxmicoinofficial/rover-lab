@@ -30,7 +30,7 @@ export function startDakibotRequest(target) {
       status: 'loading',
     });
 
-    axios.get('http://dakibot.rover.network:9005/?addr=' + target)
+    axios.get('https://dakibot.rover.network/?addr=' + target)
       .then(r => {
         dispatchInNewStack(dispatch, {
           type: FINISH_DAKIBOT_REQUEST,
@@ -44,7 +44,7 @@ export function startDakibotRequest(target) {
         let code, message;
         if (e.status === 0) {
           code = '';
-          message = 'Unable to reach Dakibot server at http://dakibot.rover.network';
+          message = 'Unable to reach Dakibot server at https://dakibot.rover.network';
         } else {
           code = JSON.stringify(e.data, null, 2);
           message = `Failed to fund ${target} on the test network`;
