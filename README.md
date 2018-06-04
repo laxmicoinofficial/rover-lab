@@ -1,6 +1,6 @@
-# laboratory
+# lab
 
-The Rover Laboratory is a suite of tools to help one learn about exploring the Rover network. See it in action: [http://www.rover.network/lab/](http://www.rover.network/lab).
+The Rover Lab is a suite of tools to help one learn about exploring the Rover network. See it in action: [http://www.rover.network/lab/](http://www.rover.network/lab).
 
 ## Developing
 ```

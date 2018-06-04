@@ -39,7 +39,7 @@ var webpackOptions = {
     // Ignore native modules (ed25519)
     new webpack.IgnorePlugin(/ed25519/),
     new HtmlWebpackPlugin({
-      title: 'Rover Laboratory'
+      title: 'Rover Lab'
     })
   ],
   node: {
