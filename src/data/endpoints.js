@@ -76,7 +76,7 @@ export const endpointsMap = {
         'helpUrl': 'https://www.rover.network/developers/orbit/reference/endpoints/effects-for-operation.html',
         'method': 'GET',
         'path': {
-          template: '/operation/{operation}/effects{?cursor,limit,order}',
+          template: '/operations/{operation}/effects{?cursor,limit,order}',
         },
         'setupComponent': require('../components/SetupPanes/ForOperation'),
       },
@@ -256,6 +256,15 @@ export const endpointsMap = {
           'offer_id': 'offer_id'
         },
         'setupComponent': require('../components/SetupPanes/Trades'),
+      },
+      'for_account': {
+        'label': 'Trades for Account',
+        'helpUrl': 'https://www.rover.network/developers/orbit/reference/endpoints/trades.html',
+        'method': 'GET',
+        'path': {
+          template: '/accounts/{account_id}/trades{?cursor,limit,order}',
+        },
+        'setupComponent': require('../components/SetupPanes/ForAccount'),
       },
     }
   },

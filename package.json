@@ -1,9 +1,9 @@
 {
   "name": "rover-lab",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "private": true,
   "description": "",
-  "author": "Rover Development Foundation <rover@rover.network>",
+  "author": "Rover Network <info@rover.network>",
   "license": "Apache-2.0",
   "scripts": {
     "start": "gulp develop",
@@ -35,8 +35,8 @@
     "redux-thunk": "^1.0.0",
     "route-recognizer": "^0.1.9",
     "sass-loader": "^3.2.3",
-    "@ledgerhq/hw-app-str": "4.2.0",
-    "@ledgerhq/hw-transport-u2f": "4.2.0",
+    "@ledgerhq/hw-app-str": "^4.14.0",
+    "@ledgerhq/hw-transport-u2f": "^4.13.0",
     "rover-network-sdk": "^0.0.4",
     "uri-templates": "^0.1.9",
     "urijs": "^1.16.0",
